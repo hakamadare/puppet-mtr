@@ -1,4 +1,5 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class mtr {
+  package { 'mtr':
+    ensure  => installed,
+  }
 }
