@@ -1,5 +1,6 @@
 class mtr {
   package { 'mtr':
-    ensure  => installed,
+    ensure   => installed,
+    provider => 'homebrew',
   }
 }
